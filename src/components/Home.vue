@@ -2,8 +2,10 @@
 <div class="head_1">
     <header>
     <div>
-    <v-hiringmenu/>
+    <!--<v-hiringmenu/>-->
+   <!--<HiringMenu></HiringMenu>-->
     </div>
+    
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
@@ -11,19 +13,19 @@
             <br>
             <br>
             <br>
-             <h1 class="mb-5" id= "textsize">Learn how to get your next dream job.</h1>
-              <h2>Growth hacking your career.</h2>
+             <h1 class="mb-5" id= "textsize">Hackathons for Tech Hiring.</h1>
+              <h2>Cut down time & cost in tech recruiting.</h2>
              <div class="row">                
               </div>
               <br>
              <!--<a href="/growthHack" class="btn btn-xl main-bt js-scroll-trigger">LEARN MORE</a>-->
-             <a href="https://goo.gl/forms/wktdAeVXlYA3RICt2" class="ui massive blue inverted black button">LEARN MORE</a>
+             <a href="https://goo.gl/forms/wktdAeVXlYA3RICt2" class="ui massive blue inverted black button">POST JOB</a>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
                   <div class="screen" id="foot">
-                 <img src="../assets/dreamJob_climb.gif" class="img-fluid" alt="">
+                 <img src="../assets/hack.gif" class="img-fluid" alt="">
                  </div>
             </div>
           </div>
@@ -32,9 +34,9 @@
     </header>
     <b-container>
     <section class="features" id="features">
-      <div class="container">
+     <!-- <div class="container">-->
         <div class="section-heading text-center">
-          <h2>Connect & Learn from experinced mentors about your dream job.</h2>
+          <h1>Interview hackathon for skill set and cultural fit.</h1>
         <!--  <p class="text-muted">Take control of your career</p>-->
           <hr>
         </div>
@@ -42,7 +44,7 @@
           <div class="col-lg-4 my-auto">
             <div class="device-container">   
                     <div class="screen" id="foot">
-                <img src="../assets/growth.gif" class="img-fluid" alt="">        
+                <img src="../assets/innovation.gif" class="img-fluid" alt="">        
                   </div>   
             </div>
           </div>
@@ -54,7 +56,7 @@
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
-                    <h3>Prepare for your dream job?</h3>
+                    <h3>Skill set fit</h3>
                     <p class="text-muted">Do you want to know how to get the job at your dream companies?Post your dream job, prepare for your dream job, land your dream job.</p>
                   <h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>
                   </div>
@@ -66,7 +68,7 @@
                   <div style="text-align:left">
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
-                    <h3>Help others get their dream job.</h3>
+                    <h3>Cultural fit</h3>
                     <p class="text-muted">You love your job and you want to mentor others on what it takes to do the job. This is a great opportunity to not only connect with the talent but also to hire talent quickly when a position opensup. </p>
                     <h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>
                     </div>
@@ -77,12 +79,12 @@
             </div>
           </div>
         </div>
-      </div>
+      <!--</div>-->
     </section>
     <section class="features" id="features">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Take control of your career. </h2>
+          <h2>Helping tech hiring managers to succeed. </h2>
           <p class="text-muted"><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></p>
           <hr>
         </div>
@@ -156,6 +158,6 @@ section.img {
 
 <script>
 export default {
-     name: 'HelloWorld'
+     name: 'Home'
 }
 </script>
