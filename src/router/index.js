@@ -14,6 +14,7 @@ import AddProfile from '../components/views/profile/AddProfile'
 import EditProfile from '../components/views/profile/EditProfile'
 import ListProfile from '../components/views/profile/ListProfile'
 import '../../node_modules/nprogress/nprogress.css'
+import AddJob from '../components/views/job/AddJob'
 
 Vue.use(VueFire)
 Vue.use(Router)
@@ -58,6 +59,14 @@ const router = new Router({
           authRequired: true
         }
   },
+  {
+    name: 'AddJob',
+    path: '/add-job',
+    component: AddJob,
+    meta: {
+      authRequired: true
+    }
+},
   {
       name: 'Edit',
       path: '/edit/:id',

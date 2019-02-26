@@ -14,12 +14,13 @@
             <br>
             <br>
              <h1 class="mb-5" id= "textsize">Hackathons for Tech Hiring.</h1>
-              <h2>Cut down time & cost in tech recruiting.</h2>
+              <h2>Reducing risk in tech hiring</h2>
              <div class="row">                
               </div>
               <br>
              <!--<a href="/growthHack" class="btn btn-xl main-bt js-scroll-trigger">LEARN MORE</a>-->
-             <a href="https://goo.gl/forms/wktdAeVXlYA3RICt2" class="ui massive blue inverted black button">POST JOB</a>
+             <!--<a href="https://goo.gl/forms/wktdAeVXlYA3RICt2" class="ui massive blue inverted black button">POST JOB</a>-->
+             <router-link :to="{ name: 'Add' }" class="ui massive green inverted black button">POST JOB</router-link>
               </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -36,7 +37,7 @@
     <section class="features" id="features">
      <!-- <div class="container">-->
         <div class="section-heading text-center">
-          <h1>Interview hackathon for skill set and cultural fit.</h1>
+          <h1>Helping technical hiring managers to find candidates with <br>both skill set fit and cultural fit for fraction of cost and time.</h1>
         <!--  <p class="text-muted">Take control of your career</p>-->
           <hr>
         </div>
@@ -56,9 +57,10 @@
                   <div style="text-align:left">
                     <!--<i class="icon-screen-smartphone text-primary"></i>-->
                    <div class="ui segment">
-                    <h3>Skill set fit</h3>
-                    <p class="text-muted">Do you want to know how to get the job at your dream companies?Post your dream job, prepare for your dream job, land your dream job.</p>
-                  <h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>
+                    <h3>Skill Set fit</h3>
+                    <p class="text-muted">Evaluating technical skill sets is a time consuming job.Our interview hackathons are designed to take away the hassel in evaluating the technical skill sets of your candidates. </p>
+                  <!--<h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>-->
+                   <router-link :to="{ name: 'Add' }" class="ui massive green inverted black button">Find Skill Set Fit</router-link>
                   </div>
                   </div>
                   </div>
@@ -69,8 +71,9 @@
                     <!--<i class="icon-camera text-primary"></i>-->
                     <div class="ui segment">
                     <h3>Cultural fit</h3>
-                    <p class="text-muted">You love your job and you want to mentor others on what it takes to do the job. This is a great opportunity to not only connect with the talent but also to hire talent quickly when a position opensup. </p>
-                    <h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>
+                    <p class="text-muted">As a technical hiring manager your success is dependent on the performance of your team. Assesing cultural fit is not easy. Interview hackathons are specifically designed to evaluate the cultural fit of candidates. </p>
+                    <!--<h4><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></h4>-->
+                     <router-link :to="{ name: 'Add' }" class="ui massive green inverted black button">Find Cultural Fit</router-link>
                     </div>
                   </div>
                   </div>
@@ -86,6 +89,7 @@
         <div class="section-heading text-center">
           <h2>Helping tech hiring managers to succeed. </h2>
           <p class="text-muted"><a href="https://goo.gl/forms/wktdAeVXlYA3RICt2">Learn More</a></p>
+          
           <hr>
         </div>
          

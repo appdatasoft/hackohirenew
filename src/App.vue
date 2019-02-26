@@ -4,12 +4,12 @@
     <div id="nav" class="gap">
       <navigation></navigation>
         <router-view/> 
-        <div class="page-header">
-      <h1>Create Your Dream Job <br><small>growth hacking your career</small></h1>
+      <!--<div class="page-header">
+      <h1>Describe the perfect candidate. <br><small>skill set + cultural fit</small></h1>
     </div>
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">What is your dream job?</h3>
+        <h3 class="panel-title">Describe skill set fit</h3>
       </div>
       <div class="panel-body">
          <form id="form" class="form-inline" v-on:submit.prevent="addBook">
@@ -53,7 +53,7 @@
           </tbody>
         </table>
       </div>
-    </div>
+    </div>-->
     </div>
     
   </div>
